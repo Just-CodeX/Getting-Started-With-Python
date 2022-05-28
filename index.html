@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Getting started with Python (Beginner&#39;s Tutorial) ::
+        
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Getting Started #  Hi, In this tutorial you will how to get started with Python. You will go through python installation and some basics of python. But firstly, what is python. Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
+  Dynamically Typed - These are languages which assign the data type to a variable at runtime based on their value."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://Just-CodeX.github.io/Getting-Started-With-Python/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/style.css" />
+
+<link rel="stylesheet" href="https://Just-CodeX.github.io/Getting-Started-With-Python/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://Just-CodeX.github.io/Getting-Started-With-Python/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://Just-CodeX.github.io/Getting-Started-With-Python/img/favicon.png" />
+
+
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting started with Python (Beginner&#39;s Tutorial)"/>
+<meta name="twitter:description" content="Getting Started #  Hi, In this tutorial you will how to get started with Python. You will go through python installation and some basics of python. But firstly, what is python. Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
+  Dynamically Typed - These are languages which assign the data type to a variable at runtime based on their value."/>
+
+
+
+<meta property="og:title" content="Getting started with Python (Beginner&#39;s Tutorial)" />
+<meta property="og:description" content="Getting Started #  Hi, In this tutorial you will how to get started with Python. You will go through python installation and some basics of python. But firstly, what is python. Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
+  Dynamically Typed - These are languages which assign the data type to a variable at runtime based on their value." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Just-CodeX.github.io/Getting-Started-With-Python/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-05-19T23:26:25-12:00" />
+<meta property="article:modified_time" content="2022-05-19T23:26:25-12:00" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Python</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="https://anonymousxc.github.io/ItsMeOnly/">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Just-CodeX">Community</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Just-CodeX">More Articles</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="https://anonymousxc.github.io/ItsMeOnly/">About</a></li>
+      
+    
+      
+        <li><a href="https://github.com/Just-CodeX">Community</a></li>
+      
+    
+      
+        <li><a href="https://github.com/Just-CodeX">More Articles</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Getting started with Python (Beginner&rsquo;s Tutorial)</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-05-19
+        </span>
+
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 2 min read</span
+        >
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      
+  <figure class="center" >
+    <img src="images/python.svg"   style="border-radius: 8px; width:250px; height: auto;"  />
+    
+  </figure>
+
+
+<h2 id="getting-started">
+  Getting Started
+  <a href="#getting-started" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Hi,
+In this tutorial you will how to get started with Python. You will go through python installation and some basics of python. But firstly, what is python. <strong>Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.</strong></p>
+<ul>
+<li>
+<p><em>Dynamically Typed</em> - These are languages which assign the data type to a variable at runtime based on their value. Eg - Python, Ruby &amp; etc. <a href="">Read More.</a></p>
+</li>
+<li>
+<p><em>Garbage Collected</em> - It is a form of automatic memory management. It frees the memory which was allocated by the program.</p>
+</li>
+</ul>
+<h3 id="pros">
+  Pros
+  <a href="#pros" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>The pros of Python are -</p>
+<ul>
+<li>
+<p>Easy to Read, Learn and Write</p>
+</li>
+<li>
+<p>Improved Productivity</p>
+</li>
+<li>
+<p>Dynamically Typed</p>
+</li>
+<li>
+<p>Free and Open-Source</p>
+</li>
+<li>
+<p>Vast Libraries Support</p>
+</li>
+</ul>
+<h3 id="cons">
+  Cons
+  <a href="#cons" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>The cons of python are -</p>
+<ul>
+<li>
+<p>Slow Speed</p>
+</li>
+<li>
+<p>Not Memory Efficient</p>
+</li>
+<li>
+<p>Weak in Mobile Computing</p>
+</li>
+</ul>
+<h2 id="installation">
+  Installation
+  <a href="#installation" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Firstly, you need to download a binary depending on your OS. You can simply download it from <a href="https://www.python.org/downloads/">here</a>.</p>
+<ol>
+<li>Just open the binary. You will get an interface like this ↓.</li>
+</ol>
+
+  <figure class="center" >
+    <img src="images/1.png"   style="border-radius: 8px;"  />
+    
+      <figcaption class="center" >Remember to check the add to path box.</figcaption>
+    
+  </figure>
+
+
+<!-- raw HTML omitted -->
+<ol start="2">
+<li>
+<p>Hit install.</p>
+</li>
+<li>
+<p>Congratulation, you just installed python.</p>
+</li>
+<li>
+<p>Now, open your terminal and check if python is added to your path.</p>
+</li>
+</ol>
+
+  <figure class="center" >
+    <img src="images/3.png"   style="border-radius: 8px;"  />
+    
+  </figure>
+
+
+<ol start="5">
+<li>If, you get the python version you installed then, you are set to go.</li>
+</ol>
+<h2 id="text-editor">
+  Text Editor
+  <a href="#text-editor" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>There are alot of text editors out there. You can use any of them. To name a few :-</p>
+<ol>
+<li>
+<p><a href="https://code.visualstudio.com/">VS Code</a></p>
+</li>
+<li>
+<p><a href="https://atom.io/">Atom Editor</a></p>
+</li>
+<li>
+<p><a href="https://www.sublimetext.com/">Sublime Text</a></p>
+</li>
+<li>
+<p><a href="https://www.gnu.org/software/emacs/">Emacs</a></p>
+</li>
+<li>
+<p><a href="https://brackets.io/">Brackets</a></p>
+</li>
+<li>
+<p>and many more.</p>
+</li>
+</ol>
+<p>You can choose any editor from the list above. But we are going to work on VScode.</p>
+<h2 id="first-script">
+  First Script
+  <a href="#first-script" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+
+
+
+  <div class="collapsable-code">
+    <input id="369245187" type="checkbox"  />
+    <label for="369245187">
+      <span class="collapsable-code__language">Python</span>
+      <span class="collapsable-code__title">first.py</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-Python" ><code>
+print(&#34;Hello World&#34;)
+
+
+&#34;&#34;&#34;In this, script you run a function print(). 
+Which is built inside python that displays the output of the code in the terminal.&#34;&#34;&#34;
+
+</code></pre>
+  </div>
+
+
+<h2 id="conclusion">
+  Conclusion
+  <a href="#conclusion" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>🥳🎉You just setup python with a text editor. Now you can code python on your machine.🎉🥳 <br>
+See you in the next tutorial.</p>
+
+    </div>
+    
+
+    
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Python</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/main.js"></script>
+<script src="https://Just-CodeX.github.io/Getting-Started-With-Python/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
